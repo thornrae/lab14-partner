@@ -1,0 +1,25 @@
+{
+  "name": "socket-partner-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "customer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thornrae/socket-partner-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thornrae/socket-partner-project/issues"
+  },
+  "homepage": "https://github.com/thornrae/socket-partner-project#readme",
+  "dependencies": {
+    "faker": "^5.5.2",
+    "jest": "^26.6.3",
+    "socket.io": "^2.4.1",
+    "socket.io-client": "^2.4.0"
+  }
+}
