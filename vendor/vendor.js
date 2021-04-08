@@ -13,11 +13,12 @@ trackerConnection.on('order-in-transit', orderShipped);
 trackerConnection.on('out-for-delivery', outForDelivery)
 trackerConnection.on('package-received', deliveryConfirmation);
 
+//payload.payload
 function orderConfirmation (payload) {
   setTimeout( () => {
    trackerConnection.emit('order-confirmation', payload);
 
-   console.log('order confirmed');
+   console.log('order confirmed', payload);
   }, 1500)
 }
 
