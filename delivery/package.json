@@ -4,6 +4,7 @@
   "description": "",
   "main": "delivery.js",
   "scripts": {
+    "start": "node delivery.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
